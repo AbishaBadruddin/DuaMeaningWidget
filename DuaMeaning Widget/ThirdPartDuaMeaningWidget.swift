@@ -30,7 +30,7 @@ struct ThirdPartDuaMeaningWidgetProvider: TimelineProvider {
         // Generate a timeline consisting of five entries an hour apart, starting from the current date.
         let currentDate = Date()
         for hourOffset in 0 ..< 1 {
-          let entryDate = Calendar.current.date(byAdding: .minute, value: hourOffset, to: currentDate)!
+          let entryDate = Calendar.current.date(byAdding: .day, value: hourOffset, to: currentDate)!
           let entry = ThirdPartDuaMeaningEntry(date: entryDate, duaDetails: DuaProvider.thirdPart())
           entries.append(entry)
         }

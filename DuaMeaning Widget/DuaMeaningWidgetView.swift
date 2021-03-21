@@ -45,8 +45,6 @@ struct SmallDuaMeaningWidgetView: View {
                 Text(duaDetails.arabic).fontWeight(.bold)
                     .font(.system(size: 13))
                     .multilineTextAlignment(.center)
-//                    .foregroundColor(.gray5)
-                    
                 Text(duaDetails.meaning)
                     .font(.system(size: 13))
                     .multilineTextAlignment(.center)
@@ -73,12 +71,11 @@ struct MediumDuaMeaningWidgetView: View {
     
     var body: some View {
         ZStack {
-            Color(UIColor.systemIndigo)
+            Color(UIColor.systemGreen)
             VStack {
-                Text(duaDetails.arabic)
+                Text(duaDetails.arabic).fontWeight(.bold)
                     .font(.system(size: 15))
                     .multilineTextAlignment(.center)
-                    .foregroundColor(.white)
                 Text(duaDetails.meaning)
                     .font(.system(size: 15))
                     .multilineTextAlignment(.center)
@@ -86,7 +83,6 @@ struct MediumDuaMeaningWidgetView: View {
                 Text(duaDetails.part)
                     .font(.system(size: 12))
                     .multilineTextAlignment(.center)
-                    .foregroundColor(.black)
             }
         }
     }
@@ -105,12 +101,11 @@ struct LargeDuaMeaningWidgetView: View {
     
     var body: some View {
         ZStack {
-            Color(UIColor.systemIndigo)
+            Color(UIColor.systemGreen)
             VStack {
                 Text(duaDetails.arabic)
-                    .font(.system(size: 20))
+                    .font(.system(size: 20)).fontWeight(.bold)
                     .multilineTextAlignment(.center)
-                    .foregroundColor(.white)
                 Text(duaDetails.meaning)
                     .font(.system(size: 20))
                     .multilineTextAlignment(.center)
@@ -118,7 +113,6 @@ struct LargeDuaMeaningWidgetView: View {
                 Text(duaDetails.part)
                     .font(.system(size: 17))
                     .multilineTextAlignment(.center)
-                    .foregroundColor(.black)
             }
         }
     }
