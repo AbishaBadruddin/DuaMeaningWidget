@@ -11,7 +11,61 @@
 		37A39C6D26059D95009B2472 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 37A39C6C26059D95009B2472 /* ContentView.swift */; };
 		37A39C6F26059D96009B2472 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 37A39C6E26059D96009B2472 /* Assets.xcassets */; };
 		37A39C7226059D96009B2472 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 37A39C7126059D96009B2472 /* Preview Assets.xcassets */; };
+		37A39C7B26059E20009B2472 /* DuaDetails.swift in Sources */ = {isa = PBXBuildFile; fileRef = 37A39C7A26059E20009B2472 /* DuaDetails.swift */; };
+		37A39C7E26059E91009B2472 /* DuaProvider.swift in Sources */ = {isa = PBXBuildFile; fileRef = 37A39C7D26059E91009B2472 /* DuaProvider.swift */; };
+		37A39C8F2605A4E6009B2472 /* WidgetKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 37A39C8E2605A4E6009B2472 /* WidgetKit.framework */; };
+		37A39C912605A4E6009B2472 /* SwiftUI.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 37A39C902605A4E6009B2472 /* SwiftUI.framework */; };
+		37A39C942605A4E6009B2472 /* DuaMeaning_Widget.swift in Sources */ = {isa = PBXBuildFile; fileRef = 37A39C932605A4E6009B2472 /* DuaMeaning_Widget.swift */; };
+		37A39C962605A4E8009B2472 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 37A39C952605A4E8009B2472 /* Assets.xcassets */; };
+		37A39C9A2605A4E8009B2472 /* DuaMeaning WidgetExtension.appex in Embed App Extensions */ = {isa = PBXBuildFile; fileRef = 37A39C8C2605A4E6009B2472 /* DuaMeaning WidgetExtension.appex */; settings = {ATTRIBUTES = (RemoveHeadersOnCopy, ); }; };
+		37A39CA12605A525009B2472 /* DuaProvider.swift in Sources */ = {isa = PBXBuildFile; fileRef = 37A39C7D26059E91009B2472 /* DuaProvider.swift */; };
+		37A39CA42605A52C009B2472 /* DuaDetails.swift in Sources */ = {isa = PBXBuildFile; fileRef = 37A39C7A26059E20009B2472 /* DuaDetails.swift */; };
+		37A39CA82605A573009B2472 /* DuaMeaningWidgetView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 37A39CA72605A573009B2472 /* DuaMeaningWidgetView.swift */; };
+		37A39CD92605BF16009B2472 /* SelectDuaMeaningIntent.intentdefinition in Sources */ = {isa = PBXBuildFile; fileRef = 37A39CD82605BF16009B2472 /* SelectDuaMeaningIntent.intentdefinition */; };
+		37A39CF12605C184009B2472 /* IntentHandler.swift in Sources */ = {isa = PBXBuildFile; fileRef = 37A39CF02605C184009B2472 /* IntentHandler.swift */; };
+		37A39CFF2605C1CB009B2472 /* SelectDuaMeaningIntent.intentdefinition in Sources */ = {isa = PBXBuildFile; fileRef = 37A39CD82605BF16009B2472 /* SelectDuaMeaningIntent.intentdefinition */; };
+		37A39D032605C1CB009B2472 /* SelectDuaMeaningIntent.intentdefinition in Sources */ = {isa = PBXBuildFile; fileRef = 37A39CD82605BF16009B2472 /* SelectDuaMeaningIntent.intentdefinition */; };
+		37A39D072605C398009B2472 /* IntentHandler.swift in Sources */ = {isa = PBXBuildFile; fileRef = 37A39CF02605C184009B2472 /* IntentHandler.swift */; };
+		37A39D0B2605C3A9009B2472 /* IntentHandler.swift in Sources */ = {isa = PBXBuildFile; fileRef = 37A39CF02605C184009B2472 /* IntentHandler.swift */; };
+		37A39D0F2605C437009B2472 /* DuaProvider.swift in Sources */ = {isa = PBXBuildFile; fileRef = 37A39C7D26059E91009B2472 /* DuaProvider.swift */; };
+		37A39D132605C4CD009B2472 /* DuaDetails.swift in Sources */ = {isa = PBXBuildFile; fileRef = 37A39C7A26059E20009B2472 /* DuaDetails.swift */; };
+		37A39D1E2605C65F009B2472 /* CustomDuaMeaningWidget.swift in Sources */ = {isa = PBXBuildFile; fileRef = 37A39D1D2605C65E009B2472 /* CustomDuaMeaningWidget.swift */; };
+		37A39D4D2605C9A1009B2472 /* DuaMeaningWidgetBundle.swift in Sources */ = {isa = PBXBuildFile; fileRef = 37A39D4C2605C9A1009B2472 /* DuaMeaningWidgetBundle.swift */; };
+		37A39D682605CE32009B2472 /* RandomDuaMeaningWidget.swift in Sources */ = {isa = PBXBuildFile; fileRef = 37A39D672605CE32009B2472 /* RandomDuaMeaningWidget.swift */; };
+		37A39DDF2606FDEB009B2472 /* FirstPartDuaMeaningWidget.swift in Sources */ = {isa = PBXBuildFile; fileRef = 37A39DDE2606FDEB009B2472 /* FirstPartDuaMeaningWidget.swift */; };
+		37A39DE72606FFCC009B2472 /* SecondPartDuaMeaningWidget.swift in Sources */ = {isa = PBXBuildFile; fileRef = 37A39DE62606FFCB009B2472 /* SecondPartDuaMeaningWidget.swift */; };
+		37A39DF22607054A009B2472 /* ThirdPartDuaMeaningWidget.swift in Sources */ = {isa = PBXBuildFile; fileRef = 37A39DF126070549009B2472 /* ThirdPartDuaMeaningWidget.swift */; };
+		37A39DF726070558009B2472 /* FourthPartDuaMeaningWidget.swift in Sources */ = {isa = PBXBuildFile; fileRef = 37A39DF626070558009B2472 /* FourthPartDuaMeaningWidget.swift */; };
+		37A39DFC26070562009B2472 /* FifthPartDuaMeaningWidget.swift in Sources */ = {isa = PBXBuildFile; fileRef = 37A39DFB26070562009B2472 /* FifthPartDuaMeaningWidget.swift */; };
+		37A39E012607056A009B2472 /* SixthPartDuaMeaningWidget.swift in Sources */ = {isa = PBXBuildFile; fileRef = 37A39E002607056A009B2472 /* SixthPartDuaMeaningWidget.swift */; };
+		37A39E092607099A009B2472 /* DuaPart.swift in Sources */ = {isa = PBXBuildFile; fileRef = 37A39E082607099A009B2472 /* DuaPart.swift */; };
+		37A39E0D26070C11009B2472 /* DuaPart.swift in Sources */ = {isa = PBXBuildFile; fileRef = 37A39E082607099A009B2472 /* DuaPart.swift */; };
+		37A39E1126070C12009B2472 /* DuaPart.swift in Sources */ = {isa = PBXBuildFile; fileRef = 37A39E082607099A009B2472 /* DuaPart.swift */; };
 /* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		37A39C982605A4E8009B2472 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 37A39C5F26059D95009B2472 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 37A39C8B2605A4E6009B2472;
+			remoteInfo = "DuaMeaning WidgetExtension";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXCopyFilesBuildPhase section */
+		37A39C9E2605A4E8009B2472 /* Embed App Extensions */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "";
+			dstSubfolderSpec = 13;
+			files = (
+				37A39C9A2605A4E8009B2472 /* DuaMeaning WidgetExtension.appex in Embed App Extensions */,
+			);
+			name = "Embed App Extensions";
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXCopyFilesBuildPhase section */
 
 /* Begin PBXFileReference section */
 		37A39C6726059D95009B2472 /* DuaMeaning.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = DuaMeaning.app; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -20,10 +74,50 @@
 		37A39C6E26059D96009B2472 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		37A39C7126059D96009B2472 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
 		37A39C7326059D96009B2472 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		37A39C7A26059E20009B2472 /* DuaDetails.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DuaDetails.swift; sourceTree = "<group>"; };
+		37A39C7D26059E91009B2472 /* DuaProvider.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DuaProvider.swift; sourceTree = "<group>"; };
+		37A39C8C2605A4E6009B2472 /* DuaMeaning WidgetExtension.appex */ = {isa = PBXFileReference; explicitFileType = "wrapper.app-extension"; includeInIndex = 0; path = "DuaMeaning WidgetExtension.appex"; sourceTree = BUILT_PRODUCTS_DIR; };
+		37A39C8E2605A4E6009B2472 /* WidgetKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = WidgetKit.framework; path = System/Library/Frameworks/WidgetKit.framework; sourceTree = SDKROOT; };
+		37A39C902605A4E6009B2472 /* SwiftUI.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = SwiftUI.framework; path = System/Library/Frameworks/SwiftUI.framework; sourceTree = SDKROOT; };
+		37A39C932605A4E6009B2472 /* DuaMeaning_Widget.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DuaMeaning_Widget.swift; sourceTree = "<group>"; };
+		37A39C952605A4E8009B2472 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		37A39C972605A4E8009B2472 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		37A39CA72605A573009B2472 /* DuaMeaningWidgetView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DuaMeaningWidgetView.swift; sourceTree = "<group>"; };
+		37A39CD82605BF16009B2472 /* SelectDuaMeaningIntent.intentdefinition */ = {isa = PBXFileReference; lastKnownFileType = file.intentdefinition; path = SelectDuaMeaningIntent.intentdefinition; sourceTree = "<group>"; };
+		37A39CEC2605C184009B2472 /* DuaMeaning Intent.appex */ = {isa = PBXFileReference; explicitFileType = "wrapper.app-extension"; includeInIndex = 0; path = "DuaMeaning Intent.appex"; sourceTree = BUILT_PRODUCTS_DIR; };
+		37A39CED2605C184009B2472 /* Intents.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Intents.framework; path = System/Library/Frameworks/Intents.framework; sourceTree = SDKROOT; };
+		37A39CF02605C184009B2472 /* IntentHandler.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = IntentHandler.swift; sourceTree = "<group>"; };
+		37A39CF22605C184009B2472 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		37A39D1D2605C65E009B2472 /* CustomDuaMeaningWidget.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CustomDuaMeaningWidget.swift; sourceTree = "<group>"; };
+		37A39D4C2605C9A1009B2472 /* DuaMeaningWidgetBundle.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DuaMeaningWidgetBundle.swift; sourceTree = "<group>"; };
+		37A39D672605CE32009B2472 /* RandomDuaMeaningWidget.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RandomDuaMeaningWidget.swift; sourceTree = "<group>"; };
+		37A39DDE2606FDEB009B2472 /* FirstPartDuaMeaningWidget.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FirstPartDuaMeaningWidget.swift; sourceTree = "<group>"; };
+		37A39DE62606FFCB009B2472 /* SecondPartDuaMeaningWidget.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SecondPartDuaMeaningWidget.swift; sourceTree = "<group>"; };
+		37A39DF126070549009B2472 /* ThirdPartDuaMeaningWidget.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ThirdPartDuaMeaningWidget.swift; sourceTree = "<group>"; };
+		37A39DF626070558009B2472 /* FourthPartDuaMeaningWidget.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FourthPartDuaMeaningWidget.swift; sourceTree = "<group>"; };
+		37A39DFB26070562009B2472 /* FifthPartDuaMeaningWidget.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FifthPartDuaMeaningWidget.swift; sourceTree = "<group>"; };
+		37A39E002607056A009B2472 /* SixthPartDuaMeaningWidget.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SixthPartDuaMeaningWidget.swift; sourceTree = "<group>"; };
+		37A39E082607099A009B2472 /* DuaPart.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DuaPart.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
 		37A39C6426059D95009B2472 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		37A39C892605A4E6009B2472 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				37A39C912605A4E6009B2472 /* SwiftUI.framework in Frameworks */,
+				37A39C8F2605A4E6009B2472 /* WidgetKit.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		37A39CE92605C184009B2472 /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -37,6 +131,9 @@
 			isa = PBXGroup;
 			children = (
 				37A39C6926059D95009B2472 /* DuaMeaning */,
+				37A39C922605A4E6009B2472 /* DuaMeaning Widget */,
+				37A39CEF2605C184009B2472 /* DuaMeaning Intent */,
+				37A39C8D2605A4E6009B2472 /* Frameworks */,
 				37A39C6826059D95009B2472 /* Products */,
 			);
 			sourceTree = "<group>";
@@ -45,6 +142,8 @@
 			isa = PBXGroup;
 			children = (
 				37A39C6726059D95009B2472 /* DuaMeaning.app */,
+				37A39C8C2605A4E6009B2472 /* DuaMeaning WidgetExtension.appex */,
+				37A39CEC2605C184009B2472 /* DuaMeaning Intent.appex */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -57,6 +156,10 @@
 				37A39C6E26059D96009B2472 /* Assets.xcassets */,
 				37A39C7326059D96009B2472 /* Info.plist */,
 				37A39C7026059D96009B2472 /* Preview Content */,
+				37A39C7A26059E20009B2472 /* DuaDetails.swift */,
+				37A39E082607099A009B2472 /* DuaPart.swift */,
+				37A39C7D26059E91009B2472 /* DuaProvider.swift */,
+				37A39CD82605BF16009B2472 /* SelectDuaMeaningIntent.intentdefinition */,
 			);
 			path = DuaMeaning;
 			sourceTree = "<group>";
@@ -69,6 +172,45 @@
 			path = "Preview Content";
 			sourceTree = "<group>";
 		};
+		37A39C8D2605A4E6009B2472 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				37A39C8E2605A4E6009B2472 /* WidgetKit.framework */,
+				37A39C902605A4E6009B2472 /* SwiftUI.framework */,
+				37A39CED2605C184009B2472 /* Intents.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		37A39C922605A4E6009B2472 /* DuaMeaning Widget */ = {
+			isa = PBXGroup;
+			children = (
+				37A39CA72605A573009B2472 /* DuaMeaningWidgetView.swift */,
+				37A39C932605A4E6009B2472 /* DuaMeaning_Widget.swift */,
+				37A39DDE2606FDEB009B2472 /* FirstPartDuaMeaningWidget.swift */,
+				37A39DE62606FFCB009B2472 /* SecondPartDuaMeaningWidget.swift */,
+				37A39DF126070549009B2472 /* ThirdPartDuaMeaningWidget.swift */,
+				37A39DF626070558009B2472 /* FourthPartDuaMeaningWidget.swift */,
+				37A39DFB26070562009B2472 /* FifthPartDuaMeaningWidget.swift */,
+				37A39E002607056A009B2472 /* SixthPartDuaMeaningWidget.swift */,
+				37A39D672605CE32009B2472 /* RandomDuaMeaningWidget.swift */,
+				37A39D1D2605C65E009B2472 /* CustomDuaMeaningWidget.swift */,
+				37A39D4C2605C9A1009B2472 /* DuaMeaningWidgetBundle.swift */,
+				37A39C952605A4E8009B2472 /* Assets.xcassets */,
+				37A39C972605A4E8009B2472 /* Info.plist */,
+			);
+			path = "DuaMeaning Widget";
+			sourceTree = "<group>";
+		};
+		37A39CEF2605C184009B2472 /* DuaMeaning Intent */ = {
+			isa = PBXGroup;
+			children = (
+				37A39CF02605C184009B2472 /* IntentHandler.swift */,
+				37A39CF22605C184009B2472 /* Info.plist */,
+			);
+			path = "DuaMeaning Intent";
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -79,15 +221,51 @@
 				37A39C6326059D95009B2472 /* Sources */,
 				37A39C6426059D95009B2472 /* Frameworks */,
 				37A39C6526059D95009B2472 /* Resources */,
+				37A39C9E2605A4E8009B2472 /* Embed App Extensions */,
 			);
 			buildRules = (
 			);
 			dependencies = (
+				37A39C992605A4E8009B2472 /* PBXTargetDependency */,
 			);
 			name = DuaMeaning;
 			productName = DuaMeaning;
 			productReference = 37A39C6726059D95009B2472 /* DuaMeaning.app */;
 			productType = "com.apple.product-type.application";
+		};
+		37A39C8B2605A4E6009B2472 /* DuaMeaning WidgetExtension */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 37A39C9B2605A4E8009B2472 /* Build configuration list for PBXNativeTarget "DuaMeaning WidgetExtension" */;
+			buildPhases = (
+				37A39C882605A4E6009B2472 /* Sources */,
+				37A39C892605A4E6009B2472 /* Frameworks */,
+				37A39C8A2605A4E6009B2472 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "DuaMeaning WidgetExtension";
+			productName = "DuaMeaning WidgetExtension";
+			productReference = 37A39C8C2605A4E6009B2472 /* DuaMeaning WidgetExtension.appex */;
+			productType = "com.apple.product-type.app-extension";
+		};
+		37A39CEB2605C184009B2472 /* DuaMeaning Intent */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 37A39CF32605C184009B2472 /* Build configuration list for PBXNativeTarget "DuaMeaning Intent" */;
+			buildPhases = (
+				37A39CE82605C184009B2472 /* Sources */,
+				37A39CE92605C184009B2472 /* Frameworks */,
+				37A39CEA2605C184009B2472 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "DuaMeaning Intent";
+			productName = "DuaMeaning Intent";
+			productReference = 37A39CEC2605C184009B2472 /* DuaMeaning Intent.appex */;
+			productType = "com.apple.product-type.app-extension";
 		};
 /* End PBXNativeTarget section */
 
@@ -99,6 +277,12 @@
 				LastUpgradeCheck = 1240;
 				TargetAttributes = {
 					37A39C6626059D95009B2472 = {
+						CreatedOnToolsVersion = 12.4;
+					};
+					37A39C8B2605A4E6009B2472 = {
+						CreatedOnToolsVersion = 12.4;
+					};
+					37A39CEB2605C184009B2472 = {
 						CreatedOnToolsVersion = 12.4;
 					};
 				};
@@ -117,6 +301,8 @@
 			projectRoot = "";
 			targets = (
 				37A39C6626059D95009B2472 /* DuaMeaning */,
+				37A39C8B2605A4E6009B2472 /* DuaMeaning WidgetExtension */,
+				37A39CEB2605C184009B2472 /* DuaMeaning Intent */,
 			);
 		};
 /* End PBXProject section */
@@ -131,6 +317,21 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
+		37A39C8A2605A4E6009B2472 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				37A39C962605A4E8009B2472 /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		37A39CEA2605C184009B2472 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 /* End PBXResourcesBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
@@ -139,11 +340,59 @@
 			buildActionMask = 2147483647;
 			files = (
 				37A39C6D26059D95009B2472 /* ContentView.swift in Sources */,
+				37A39C7E26059E91009B2472 /* DuaProvider.swift in Sources */,
+				37A39CD92605BF16009B2472 /* SelectDuaMeaningIntent.intentdefinition in Sources */,
+				37A39E092607099A009B2472 /* DuaPart.swift in Sources */,
 				37A39C6B26059D95009B2472 /* DuaMeaningApp.swift in Sources */,
+				37A39D0B2605C3A9009B2472 /* IntentHandler.swift in Sources */,
+				37A39C7B26059E20009B2472 /* DuaDetails.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		37A39C882605A4E6009B2472 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				37A39D1E2605C65F009B2472 /* CustomDuaMeaningWidget.swift in Sources */,
+				37A39DFC26070562009B2472 /* FifthPartDuaMeaningWidget.swift in Sources */,
+				37A39D682605CE32009B2472 /* RandomDuaMeaningWidget.swift in Sources */,
+				37A39DDF2606FDEB009B2472 /* FirstPartDuaMeaningWidget.swift in Sources */,
+				37A39E012607056A009B2472 /* SixthPartDuaMeaningWidget.swift in Sources */,
+				37A39C942605A4E6009B2472 /* DuaMeaning_Widget.swift in Sources */,
+				37A39CA82605A573009B2472 /* DuaMeaningWidgetView.swift in Sources */,
+				37A39DE72606FFCC009B2472 /* SecondPartDuaMeaningWidget.swift in Sources */,
+				37A39CFF2605C1CB009B2472 /* SelectDuaMeaningIntent.intentdefinition in Sources */,
+				37A39E0D26070C11009B2472 /* DuaPart.swift in Sources */,
+				37A39CA12605A525009B2472 /* DuaProvider.swift in Sources */,
+				37A39D072605C398009B2472 /* IntentHandler.swift in Sources */,
+				37A39DF22607054A009B2472 /* ThirdPartDuaMeaningWidget.swift in Sources */,
+				37A39D4D2605C9A1009B2472 /* DuaMeaningWidgetBundle.swift in Sources */,
+				37A39CA42605A52C009B2472 /* DuaDetails.swift in Sources */,
+				37A39DF726070558009B2472 /* FourthPartDuaMeaningWidget.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		37A39CE82605C184009B2472 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				37A39CF12605C184009B2472 /* IntentHandler.swift in Sources */,
+				37A39D0F2605C437009B2472 /* DuaProvider.swift in Sources */,
+				37A39D032605C1CB009B2472 /* SelectDuaMeaningIntent.intentdefinition in Sources */,
+				37A39D132605C4CD009B2472 /* DuaDetails.swift in Sources */,
+				37A39E1126070C12009B2472 /* DuaPart.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		37A39C992605A4E8009B2472 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 37A39C8B2605A4E6009B2472 /* DuaMeaning WidgetExtension */;
+			targetProxy = 37A39C982605A4E8009B2472 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
 
 /* Begin XCBuildConfiguration section */
 		37A39C7426059D96009B2472 /* Debug */ = {
@@ -180,6 +429,7 @@
 				CLANG_WARN_UNREACHABLE_CODE = YES;
 				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
 				COPY_PHASE_STRIP = NO;
+				DEAD_CODE_STRIPPING = YES;
 				DEBUG_INFORMATION_FORMAT = dwarf;
 				ENABLE_STRICT_OBJC_MSGSEND = YES;
 				ENABLE_TESTABILITY = YES;
@@ -241,6 +491,7 @@
 				CLANG_WARN_UNREACHABLE_CODE = YES;
 				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
 				COPY_PHASE_STRIP = NO;
+				DEAD_CODE_STRIPPING = YES;
 				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
 				ENABLE_NS_ASSERTIONS = NO;
 				ENABLE_STRICT_OBJC_MSGSEND = YES;
@@ -265,14 +516,16 @@
 		37A39C7726059D96009B2472 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				CODE_SIGN_STYLE = Automatic;
+				DEAD_CODE_STRIPPING = YES;
 				DEVELOPMENT_ASSET_PATHS = "\"DuaMeaning/Preview Content\"";
 				DEVELOPMENT_TEAM = PNP3CAKFH8;
 				ENABLE_PREVIEWS = YES;
 				INFOPLIST_FILE = DuaMeaning/Info.plist;
-				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.1;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -287,20 +540,106 @@
 		37A39C7826059D96009B2472 /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				CODE_SIGN_STYLE = Automatic;
+				DEAD_CODE_STRIPPING = YES;
 				DEVELOPMENT_ASSET_PATHS = "\"DuaMeaning/Preview Content\"";
 				DEVELOPMENT_TEAM = PNP3CAKFH8;
 				ENABLE_PREVIEWS = YES;
 				INFOPLIST_FILE = DuaMeaning/Info.plist;
-				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.1;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
 				PRODUCT_BUNDLE_IDENTIFIER = com.ShainDholakiya.DuaMeaning;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		37A39C9C2605A4E8009B2472 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				ASSETCATALOG_COMPILER_WIDGET_BACKGROUND_COLOR_NAME = WidgetBackground;
+				CODE_SIGN_STYLE = Automatic;
+				DEAD_CODE_STRIPPING = YES;
+				DEVELOPMENT_TEAM = PNP3CAKFH8;
+				INFOPLIST_FILE = "DuaMeaning Widget/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 14.4;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@executable_path/../../Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "com.ShainDholakiya.DuaMeaning.DuaMeaning-Widget";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SKIP_INSTALL = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		37A39C9D2605A4E8009B2472 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				ASSETCATALOG_COMPILER_WIDGET_BACKGROUND_COLOR_NAME = WidgetBackground;
+				CODE_SIGN_STYLE = Automatic;
+				DEAD_CODE_STRIPPING = YES;
+				DEVELOPMENT_TEAM = PNP3CAKFH8;
+				INFOPLIST_FILE = "DuaMeaning Widget/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 14.4;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@executable_path/../../Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "com.ShainDholakiya.DuaMeaning.DuaMeaning-Widget";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SKIP_INSTALL = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		37A39CF42605C184009B2472 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = PNP3CAKFH8;
+				INFOPLIST_FILE = "DuaMeaning Intent/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@executable_path/../../Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "com.ShainDholakiya.DuaMeaning.DuaMeaning-Intent";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SKIP_INSTALL = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		37A39CF52605C184009B2472 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = PNP3CAKFH8;
+				INFOPLIST_FILE = "DuaMeaning Intent/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@executable_path/../../Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "com.ShainDholakiya.DuaMeaning.DuaMeaning-Intent";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SKIP_INSTALL = YES;
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};
@@ -323,6 +662,24 @@
 			buildConfigurations = (
 				37A39C7726059D96009B2472 /* Debug */,
 				37A39C7826059D96009B2472 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		37A39C9B2605A4E8009B2472 /* Build configuration list for PBXNativeTarget "DuaMeaning WidgetExtension" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				37A39C9C2605A4E8009B2472 /* Debug */,
+				37A39C9D2605A4E8009B2472 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		37A39CF32605C184009B2472 /* Build configuration list for PBXNativeTarget "DuaMeaning Intent" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				37A39CF42605C184009B2472 /* Debug */,
+				37A39CF52605C184009B2472 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
