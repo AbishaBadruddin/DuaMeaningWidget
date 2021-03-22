@@ -145,6 +145,7 @@ struct DuaMeaningDetailsView: View {
     @State private var correctAnswer: Int = 0
     @State private var choiceRandomInt: Int = Int.random(in: 0...1)
     @State private var choiceRandomDuaMeaning: String = DuaProvider.getRandomDuaMeaning()
+    var count: Int = 0
  
     func getDua() {
         dua = DuaProvider.getWhichPart(duaPart: DuaPart(part: part))
@@ -182,6 +183,8 @@ struct DuaMeaningDetailsView: View {
                 if (choiceRandomInt == 0) {
                     Button("\(dua.meaning)") {
                         correctAnswer = 1
+                        count += 1
+                        
                     }
                     .foregroundColor(.white)
                     .padding()
@@ -189,6 +192,7 @@ struct DuaMeaningDetailsView: View {
                     .cornerRadius(8)
                     Button("\(choiceRandomDuaMeaning)") {
                         correctAnswer = 2
+                        
                     }
                     .foregroundColor(.white)
                     .padding()
@@ -204,6 +208,7 @@ struct DuaMeaningDetailsView: View {
                     .cornerRadius(8)
                     Button("\(dua.meaning)") {
                         correctAnswer = 1
+                        count += 1
                     }
                     .foregroundColor(.white)
                     .padding()
@@ -213,6 +218,9 @@ struct DuaMeaningDetailsView: View {
                 Group {
                     if (correctAnswer == 1) {
                         Text("Correct!")
+                        Text("\(count)")
+                        .font()
+                        .background()
                     } else if (correctAnswer == 2) {
                         Text("Incorrect!")
                     }
